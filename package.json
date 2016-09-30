@@ -3,25 +3,34 @@
   "version": "1.0.0",
   "description": "Generator for React Components, Containers etc.",
   "main": "index.js",
+  "bin": {
+    "rsgen": "./bin/rsgen.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node --harmony ./node_modules/plop/plop.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update": "npm install -g react-scaffold"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/h9h/react-scaffold.git"
   },
   "keywords": [
+    "rsgen"
     "React",
+    "Components",
     "Generator",
     "Plop"
   ],
-  "author": "h9h",
+  "author": "Michael Heinke",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/h9h/react-scaffold/issues"
+    "url": "https://github.com/h9h/react-scaffold/issues",
+    "email": "rsgen.issue@h9h.de"
   },
   "homepage": "https://github.com/h9h/react-scaffold#readme",
-  "devDependencies": {
+  "dependencies": {
+    "minimist": "^1.2.0",
     "plop": "^1.5.0"
   }
 }
