@@ -1,0 +1,27 @@
+{
+  "name": "react-scaffold",
+  "version": "1.0.0",
+  "description": "Generator for React Components, Containers etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h9h/react-scaffold.git"
+  },
+  "keywords": [
+    "React",
+    "Generator",
+    "Plop"
+  ],
+  "author": "h9h",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/h9h/react-scaffold/issues"
+  },
+  "homepage": "https://github.com/h9h/react-scaffold#readme",
+  "devDependencies": {
+    "plop": "^1.5.0"
+  }
+}
